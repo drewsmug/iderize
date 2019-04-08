@@ -1,0 +1,22 @@
+#services_container
+{
+	background: #000000;
+	display:inline-block;
+	margin: auto;
+	width: 1300px;
+	display: inline-block;
+	text-align: left;
+}
+
+.service_indo
+{
+	background: #000000;
+	display:inline-block;
+	width: 400px;
+	height: 300px;
+	color: #ffffff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #625D5D;
+	margin: 2px;
+}
