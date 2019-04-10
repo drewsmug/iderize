@@ -1,47 +1,21 @@
-#services_container
-{
-	background: #000000;
-	display:inline-block;
-	margin: auto;
-	max-width: 1300px;
-	display: inline-block;
-	text-align: left;
+#services {
+	background: yellow;
+	height: 100vh;
 
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
-.service_indo
-{
-	background: #000000;
-	display:inline-block;
-	width: 340px;
-	height: 240px;
-	color: #ffffff;
-	border-width: 1px;
-	border-style: solid;
-	border-color: #625D5D;
-	margin: 2px;
-	padding: 30px;
+#services_container {
+	padding: 20% 0px 0px 0px;
+	text-align: center;
 }
 
-.service_indo h2
-{
+.service_indo {
+	background: white;
 	margin: 0;
 	padding: 0;
-	border: 0;
-}
-
-.service_indo p
-{
-	margin: 30px 0px 0px 0px;
-	padding: 0;
-	border: 0;
-}
-.service_indo p:first-child
-{
-	margin-top: 0;
+	border-style: solid;
+	border-color: black;
+	width: 400px;
+	display: inline-block;
 }

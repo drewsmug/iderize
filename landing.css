@@ -1,0 +1,10 @@
+#landing {
+	background: blue;
+	height: 100vh;
+
+	text-align: center;
+}
+
+#landing_container {
+	padding: 20% 0px 0px 0px;
+}
