@@ -2,6 +2,9 @@
 {
 	background: #000000;
 	color: white;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
 }
 
 #header:after
@@ -66,4 +69,10 @@
 #header a
 {
 	color: #ffffff;
+	text-decoration: none;
+}
+
+#header_logo
+{
+	font-weight: bold;
 }
