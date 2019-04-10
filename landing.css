@@ -1,7 +1,8 @@
 #landing {
-	background: blue;
+	background: #000000;
 	height: 100vh;
 
+	color: #ffffff;
 	text-align: center;
 }
 

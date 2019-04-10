@@ -2,3 +2,62 @@
 	background: green;
 	height: 100vh;
 }
+
+#about_why {
+	background: #0000ff;
+	height: 100vh;
+	width: 50vw;
+	float: left;
+}
+
+#about_vision {
+	background: #000000;
+	color: white;
+	height: 50vh;
+}
+
+#about_values {
+	background: #ffffff;
+	height: 50vh;
+}
+
+#about_why_container {
+	text-align: right;
+	padding: 30% 30px 0px 0px;
+}
+
+#about_vision_container {
+	padding: 10% 0px 0px 0px;
+}
+
+#about_vision_wrapper {
+}
+
+#about_values_container {
+	padding: 10% 0px 0px 0px;
+}
+
+@media screen and (max-width: 900px)
+{
+	#about_why {
+		float: none;
+		height: 34vh;
+		width: unset;
+	}
+	#about_why_container {
+		padding: 10% 0px 0px 30px;
+		text-align: left;
+	}
+	#about_vision_container {
+		padding: 10% 0px 0px 30px;
+	}
+	#about_vision_container {
+		padding: 10% 0px 0px 30px;
+	}
+	#about_vision {
+		height: 33vh;
+	}
+	#about_values {
+		height: 33vh;
+	}
+}
