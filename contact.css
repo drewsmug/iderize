@@ -1,6 +1,46 @@
 #contact {
 	background: #16161d;
-	height: 100vh;
+	color: #FBF6D9;
+	text-align: center;
+}
 
-	color: white;
+#contact_container {
+	padding: 100px 0px 100px 0px;
+	display: inline-block;
+}
+
+#contact_left {
+	text-align: left;
+	width: 400px;
+	float: left;
+
+	border-right: 1px solid #FBF6D9;
+}
+
+#contact_vl {
+	/*
+	height: 100%;
+	border-left: 2px solid white;
+	float: left;
+	display: inline-block;
+	*/
+}
+
+#contact_right {
+	text-align: right;
+	width: 400px;
+	float: left;
+}
+
+.contact_img {
+	width: 20px;
+	background: white;
+}
+
+.contact_img_s {
+	padding: 0px 10px 0px 0px;
+}
+
+h3 {
+	padding: 0px 0px 20px 0px;
 }

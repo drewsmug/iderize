@@ -1,63 +1,85 @@
 #about {
 	background: green;
 	height: 100vh;
+	display: flex;
+}
+
+#about_left {
+	background: #1F45FC; /*Blue Orchid*/
+	background: #2B60DE; /*Royal Blue*/
+	background: #306EFF; /*Blue Ribbon*/
+	background: #BDEDFF; /*Robin Egg Blue*/
+	background: #2B65EC; /*Ocean Blue*/
+	width: 50%;
 }
 
 #about_why {
-	background: #0000ff;
-	height: 100vh;
-	width: 50vw;
-	float: left;
+	padding: 40% 30px 0px 0px;
+	text-align: right;
+}
+
+#about_why_p {
+	width: 500px;
+	padding: 30px 0px 0px 0px;
+	text-align: right;
+	float: right;
+}
+
+#about_right {
+	background: blue;
+	width: 50%;
 }
 
 #about_vision {
+	background: #16161d;
 	background: #000000;
-	color: white;
+	color: #ffffff;
+	color: #FBF6D9;
 	height: 50vh;
+}
+
+#about_vision_p, #about_values_p {
+	width: 500px;
+	padding: 30px 0px 0px 0px;
+	text-align: left;
+}
+
+#about_vision_content {
+	padding: 10% 0px 0px 30px;
 }
 
 #about_values {
-	background: #ffffff;
+	background: #ff0000; /*Red*/
+	background: #b80f0a; /*Crimson*/
+	background: #FBF6D9; /*Blonde*/
 	height: 50vh;
 }
 
-#about_why_container {
-	text-align: right;
-	padding: 30% 30px 0px 0px;
-}
-
-#about_vision_container {
-	padding: 10% 0px 0px 0px;
-}
-
-#about_vision_wrapper {
-}
-
-#about_values_container {
-	padding: 10% 0px 0px 0px;
+#about_values_content {
+	padding: 10% 0px 0px 30px;
 }
 
 @media screen and (max-width: 900px)
 {
-	#about_why {
-		float: none;
-		height: 34vh;
-		width: unset;
+	#about {
+		display: unset;
 	}
-	#about_why_container {
-		padding: 10% 0px 0px 30px;
-		text-align: left;
+
+	#about_left {
+		width: 100%;
 	}
-	#about_vision_container {
-		padding: 10% 0px 0px 30px;
+
+	#about_right {
+		width: 100%;
 	}
-	#about_vision_container {
-		padding: 10% 0px 0px 30px;
-	}
+
 	#about_vision {
-		height: 33vh;
+		height: unset;
+		width: 100%;
 	}
+
 	#about_values {
-		height: 33vh;
+		height: unset;
+		width: 100%;
 	}
 }
