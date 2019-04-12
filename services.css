@@ -19,6 +19,7 @@
 }
 
 .service_indo {
+	background: #000000;
 	background: #16161d;
 	margin: 3px;
 	padding: 20px;
@@ -32,10 +33,15 @@
 }
 
 .services_p {
+	display: none;
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
 }
+
+.service_indo:hover { background: #16161d; }
+.service_indo:hover { background: #2B65EC; }
+.service_indo:hover > .services_p { display: unset; }
 
 h5 {
 	padding: 0px 0px 50px 0px;
