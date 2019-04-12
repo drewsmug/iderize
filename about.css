@@ -31,8 +31,8 @@
 }
 
 #about_vision {
-	background: #16161d;
 	background: #000000;
+	background: #16161d;
 	color: #ffffff;
 	color: #FBF6D9;
 	height: 50vh;
@@ -63,6 +63,26 @@
 {
 	#about {
 		display: unset;
+	}
+
+	#about_why {
+		float: unset;
+		text-align: left;
+		padding: 10% 0px 0px 30px;
+		padding: 30px 30px 30px 30px;
+	}
+
+	#about_vision_content {
+		padding: 30px 30px 30px 30px;
+	}
+
+	#about_values_content {
+		padding: 30px 30px 30px 30px;
+	}
+
+	#about_why_p {
+		float: unset;
+		text-align: left;
 	}
 
 	#about_left {

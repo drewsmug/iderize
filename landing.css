@@ -1,11 +1,15 @@
 #landing {
-	background: #000000;
+	background: #16161d;
 	height: 100vh;
 
-	color: #ffffff;
+	color: #FBF6D9;
 	text-align: center;
 }
 
 #landing_container {
 	padding: 20% 0px 0px 0px;
+}
+
+h1 {
+	font-size: 200px;
 }

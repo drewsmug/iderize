@@ -5,6 +5,7 @@
 	position: fixed;
 	z-index: 10;
 	width: 100%;
+	border-bottom: 1px solid #FBF6D9;
 }
 
 #header:after

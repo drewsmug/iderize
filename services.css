@@ -1,13 +1,13 @@
 #services {
 	background: #16161d;
-	height: 100vh;
+	min-height: 100vh;
 
-	color: #ffffff;
+	color: #FBF6D9;
 	text-align: center;
 }
 
 #services_container {
-	padding: 20% 0px 0px 0px;
+	padding: 10% 0px 0px 0px;
 	text-align: center;
 }
 
@@ -19,12 +19,12 @@
 }
 
 .service_indo {
-	background: #000000;
+	background: #16161d;
 	margin: 3px;
 	padding: 20px;
 	border: 1px;
 	border-style: solid;
-	border-color: white;
+	border-color: #FBF6D9;
 	width: 400px;
 	height: 250px;
 	display: inline-block;
@@ -35,4 +35,16 @@
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
+}
+
+h5 {
+	padding: 0px 0px 50px 0px;
+	font-size: 70px;
+}
+
+@media screen and (max-width: 900px)
+{
+	.service_indo {
+		width: 90vw;
+	}
 }
