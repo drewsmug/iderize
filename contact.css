@@ -35,14 +35,26 @@
 .contact_img {
 	width: 20px;
 	background: #FBF6D9;
+	background: #16161d;
 }
 
 .contact_img_s {
 	padding: 0px 10px 0px 0px;
+	text-align: center;
+	display: inline-block;
+	width: 50px;
 }
 
 h3 {
 	padding: 0px 0px 20px 0px;
+}
+
+#contact_img_phone {
+	width: 13px;
+}
+
+#contact_img_location {
+	width: 15px;
 }
 
 @media screen and (max-width: 900px)

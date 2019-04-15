@@ -30,6 +30,7 @@
 #menu a:hover
 {
 	color: #FBF6D9;
+	color: #fbb917;
 }
 
 #menu ul
@@ -76,6 +77,11 @@
 #header_logo
 {
 	font-weight: bold;
+}
+
+#logo a:hover
+{
+	color: #fbb917;
 }
 
 @media screen and (max-width: 900px)
