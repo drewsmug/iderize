@@ -62,9 +62,20 @@ h5 {
 	font-size: 70px;
 }
 
+@media screen and (max-width: 1400px)
+{
+	#services_container_center {
+		max-width: 1000px;
+	}
+}
+
 @media screen and (max-width: 900px)
 {
 	.service_indo {
 		width: 90vw;
+	}
+
+	#services_down_arrow {
+		display: none;
 	}
 }

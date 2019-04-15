@@ -25,3 +25,10 @@
 h1 {
 	font-size: 200px;
 }
+
+@media screen and (max-width: 900px)
+{
+	#landing_down_arrow {
+		display: none;
+	}
+}
