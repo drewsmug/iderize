@@ -1,6 +1,6 @@
 #contact {
 	background: #16161d;
-	color: #FBF6D9;
+	color: #ffffff;
 	text-align: center;
 }
 
@@ -14,7 +14,7 @@
 	width: 400px;
 	float: left;
 
-	border-right: 1px solid #FBF6D9;
+	border-right: 1px solid #ffffff;
 }
 
 #contact_vl {
@@ -34,7 +34,7 @@
 
 .contact_img {
 	width: 20px;
-	background: #FBF6D9;
+	background: #ffffff;
 	background: #16161d;
 }
 
