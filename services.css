@@ -4,6 +4,7 @@
 
 	color: #FBF6D9;
 	text-align: center;
+	position: relative;
 }
 
 #services_container {
@@ -41,16 +42,40 @@
 
 .service_indo:hover { background: #16161d; }
 .service_indo:hover { background: #2B65EC; }
+.service_indo:hover { background: #368BC1; } /*Glacier Blue*/
+.service_indo:hover { background: #38ACEC; } /*Butterfly Blue*/
+.service_indo:hover { background: #fbb917; } /*Saphron*/
+.service_indo:hover { color: #16161d; } /*Saphron*/
+
 .service_indo:hover > .services_p { display: unset; }
+
+#services_down_arrow {
+	background: white;
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	color: red;
+}
 
 h5 {
 	padding: 0px 0px 50px 0px;
 	font-size: 70px;
 }
 
+@media screen and (max-width: 1400px)
+{
+	#services_container_center {
+		max-width: 1000px;
+	}
+}
+
 @media screen and (max-width: 900px)
 {
 	.service_indo {
 		width: 90vw;
+	}
+
+	#services_down_arrow {
+		display: none;
 	}
 }

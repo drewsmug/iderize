@@ -5,16 +5,30 @@
 }
 
 #about_left {
+	background: #2B65EC; /*Ocean Blue*/
 	background: #1F45FC; /*Blue Orchid*/
+	background: #BDEDFF; /*Robin Egg Blue*/
 	background: #2B60DE; /*Royal Blue*/
 	background: #306EFF; /*Blue Ribbon*/
-	background: #BDEDFF; /*Robin Egg Blue*/
-	background: #2B65EC; /*Ocean Blue*/
+	background: #368BC1; /*Glacie Blue*/
+	background: #38ACEC; /*Butterfly Blue*/
+	background: #fbb917; /*Saphron*/
 	width: 50%;
 }
 
+#about_tagline_container {
+	padding: 30% 30px 0px 0px;
+}
+
+#about_tagline {
+	background: black;
+	color: #FBF6D9;
+	width: 50%;
+	padding: 50px;
+}
+
 #about_why {
-	padding: 40% 30px 0px 0px;
+	padding: 40px 30px 0px 0px;
 	text-align: right;
 }
 
@@ -35,6 +49,7 @@
 	background: #16161d;
 	color: #ffffff;
 	color: #FBF6D9;
+	color: #c0c0c0;
 	height: 50vh;
 }
 
@@ -42,6 +57,34 @@
 	width: 500px;
 	padding: 30px 0px 0px 0px;
 	text-align: left;
+}
+
+#about_values_p_link {
+	padding: 20px 0px 0px 0px;
+}
+
+#about_values_p_link a {
+	color: #16161d;
+	text-decoration: none;
+}
+
+#about_values_p_link a:hover {
+	color: #fbb917;
+	text-decoration: none;
+}
+
+#about_vision_p_link {
+	padding: 20px 0px 0px 0px;
+}
+
+#about_vision_p_link a {
+	color: #c0c0c0;
+	text-decoration: none;
+}
+
+#about_vision_p_link a:hover {
+	color: #fbb917;
+	text-decoration: none;
 }
 
 #about_vision_content {
@@ -61,12 +104,29 @@
 
 h2 {
 	font-size: 50px;
+	color: #FBF6D9;
+}
+
+#vision_header {
+	color: #161616;
 }
 
 @media screen and (max-width: 900px)
 {
 	#about {
 		display: unset;
+	}
+
+	#about_tagline_container {
+		display: none;
+	}
+
+	#about_vision_p_link {
+		display: none;
+	}
+
+	#about_values_p_link {
+		display: none;
 	}
 
 	#about_why {

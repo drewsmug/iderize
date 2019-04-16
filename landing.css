@@ -4,12 +4,31 @@
 
 	color: #FBF6D9;
 	text-align: center;
+	position: relative;
 }
 
 #landing_container {
 	padding: 20% 0px 0px 0px;
 }
 
+#landing_down_arrow {
+	background: white;
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+}
+
+.downarrow {
+	width: 30px;
+}
+
 h1 {
 	font-size: 200px;
+}
+
+@media screen and (max-width: 900px)
+{
+	#landing_down_arrow {
+		display: none;
+	}
 }
