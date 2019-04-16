@@ -1,6 +1,5 @@
 #about {
-	background: green;
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 }
 
@@ -17,19 +16,30 @@
 }
 
 #about_tagline_container {
-	padding: 30% 30px 0px 0px;
+	padding: 300px 100px 30px 100px;
+	text-align: center;
 }
 
 #about_tagline {
-	background: black;
-	color: #ffffff;
-	width: 50%;
-	padding: 50px;
+	color: #000000;
+	font-size: 80px;
+	padding: 20px;
+	border-bottom: 1px dashed #000000;
+	border-top: 1px dashed #000000;
+	text-align: left;
+}
+
+#iderize_orange {
+	position: absolute;
+	bottom: 30px;
+	right: 200px;
+	width: 60%;
 }
 
 #about_why {
-	padding: 40px 30px 0px 0px;
+	padding: 30% 30px 0px 0px;
 	text-align: right;
+	position: relative;
 }
 
 #about_why_p {
@@ -40,7 +50,6 @@
 }
 
 #about_right {
-	background: blue;
 	width: 50%;
 }
 
@@ -105,6 +114,8 @@
 h2 {
 	font-size: 50px;
 	color: #ffffff;
+	z-index: 10;
+	position: relative;
 }
 
 #vision_header {
@@ -115,10 +126,6 @@ h2 {
 {
 	#about {
 		display: unset;
-	}
-
-	#about_tagline_container {
-		display: none;
 	}
 
 	#about_vision_p_link {
@@ -165,5 +172,13 @@ h2 {
 	#about_values {
 		height: unset;
 		width: 100%;
+	}
+
+	#iderize_orange {
+		display: none;
+	}
+
+	#about_tagline_container {
+		display: none;
 	}
 }
