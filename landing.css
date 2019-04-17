@@ -26,7 +26,7 @@ h1 {
 	font-size: 200px;
 }
 
-@media screen and (max-width: 900px)
+@media only screen and (min-resolution: 200dpi)
 {
 	#landing_down_arrow {
 		display: none;

@@ -57,7 +57,8 @@ h3 {
 	width: 15px;
 }
 
-@media screen and (max-width: 900px)
+/*
+@media only screen and (min-resolution: 200dpi)
 {
 	#contact_right {
 		display: none;
@@ -67,3 +68,4 @@ h3 {
 		border-right: unset;
 	}
 }
+*/

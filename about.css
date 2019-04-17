@@ -122,7 +122,7 @@ h2 {
 	color: #161616;
 }
 
-@media screen and (max-width: 900px)
+@media only screen and (min-resolution: 200dpi)
 {
 	#about {
 		display: unset;
